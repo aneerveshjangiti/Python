@@ -1,0 +1,4 @@
+from datetime import date
+a = date(2006, 5, 31)
+b = date(2026, 4, 29)
+print("Hours lived:", (b - a).total_seconds() / 3600)
