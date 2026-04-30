@@ -1,0 +1,6 @@
+a="aneervesh is doing engg"
+b=a.upper()
+c=a.lower()
+d=a.swapcase()
+e=a.capitalize()
+print(e)
