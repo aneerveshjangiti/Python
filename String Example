@@ -4,3 +4,32 @@ c=a.lower()
 d=a.swapcase()
 e=a.capitalize()
 print(e)
+
+
+int///
+
+a="aneervesh is doing engg"
+b=a.find("Egfhft")
+c=a.count("a")
+print(c) 
+
+
+
+a="aneervesh is doing engg"
+b=sorted(a,reverse=True)
+print(b)
+
+
+
+res="o"
+print(res.isupper())
+print(res.islower())
+print(res.isdigit())
+print(res.isalpha())
+print(res.isalnum())
+
+
+
+a="@#%HYDER3435@%^&((ABAD$267^%#"
+b="".join(i for i in a if i.isalnum())
+print(b)
