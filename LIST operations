@@ -25,3 +25,30 @@ b=[5,6,7]
 print(a[2]+b[1])
 
 
+string to list:
+
+a="ACE COLLEGE"
+b=list(a)
+print(b)
+
+
+char to list with srt:
+
+a=2026
+b=list(str(a))
+print(b)
+
+
+
+int to list
+
+a=2026
+b=[int(i)for i in str(a)]
+print(sum(b))
+
+
+
+List in list
+
+a=[[1,2,3],[10,20,30],[22,33,44],[88,77,66]]
+print(a[0][2])
