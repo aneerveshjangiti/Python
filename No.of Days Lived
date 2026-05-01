@@ -1,0 +1,7 @@
+from datetime import date
+a = date(2004, 1, 22)
+b = date(2026, 5, 1)
+
+print("No days lived:", (b - a).days)
+
+print("No days lived:", (b - a).total_seconds() / 86400)
