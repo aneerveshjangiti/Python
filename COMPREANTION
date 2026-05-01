@@ -1,0 +1,12 @@
+a=[i for i in range(1,101)]
+print(a)
+
+
+with if condition:
+
+a=[i for i in range(1,101) if i%5==0]
+print(a)
+
+
+
+
