@@ -1,0 +1,20 @@
+class india:
+    def show_info(self):
+        print("Delhi")
+    
+class Telangana(india):
+    def chiefminister(self):
+        print
+    
+class Andhra(Telangana):
+    def cm(self):
+        print("Ys jagan")
+    
+a=india()
+a.show_info()
+b=Telangana()
+c=Andhra()
+c.show_info()
+c.language()
+c.cm()
+b.cm()
